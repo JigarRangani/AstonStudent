@@ -2,13 +2,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#ae7171"
-    tools:context="com.example.dell.astonapp.Assignment_fragment">
+    android:background="#f1e7e7"
+        tools:context="com.example.dell.astonapp.Subject">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="this is the assignment tab1" />
-
+        android:clipToPadding="false"
+        android:scrollbars="vertical"/>
 </FrameLayout>
