@@ -28,6 +28,7 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.dell.astonapp.HomeActivity" />
         </activity>
+        <activity android:name=".SubjectSource.SubjectSubClasses.QuestionActivity"></activity>
     </application>
 
 </manifest>
